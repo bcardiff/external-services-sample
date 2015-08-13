@@ -1,0 +1,21 @@
+{
+  "name": "Arithmetics",
+  "steps": [
+    {
+      "name": "results",
+      "display_name": "Sum",
+      "icon": "medicalkit",
+      "callback_url": "/arithmetics/sum.php",
+      "variables": [
+        {"name": "a", "display_name": "A"},
+        {"name": "b", "display_name": "B"}
+      ],
+      "response": {
+        "type": "variables",
+        "variables": [
+          {"name": "result", "display_name": "Result"}
+        ]
+      }
+    }
+  ]
+}
