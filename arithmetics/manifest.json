@@ -1,12 +1,13 @@
 {
   "name": "Arithmetics",
-  "global_variables": [
-    {
-      "name": "NEXT_INTERVAL",
-      "display_name": "Next Interval",
-      "value": 1
-    }
-  ],
+  "global_settings": {
+    "variables": [
+      {
+        "name": "NEXT_INTERVAL",
+        "display_name": "Next Interval"
+      }
+    ]
+  },
   "steps": [
     {
       "name": "results",
