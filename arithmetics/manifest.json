@@ -10,10 +10,26 @@
   },
   "steps": [
     {
-      "name": "results",
+      "name": "sum",
       "display_name": "Sum",
       "icon": "medicalkit",
       "callback_url": "/arithmetics/sum.php",
+      "variables": [
+        {"name": "a", "display_name": "A"},
+        {"name": "b", "display_name": "B"}
+      ],
+      "response": {
+        "type": "variables",
+        "variables": [
+          {"name": "result", "display_name": "Result"}
+        ]
+      }
+    },
+    {
+      "name": "prod",
+      "display_name": "Product",
+      "icon": "automatic",
+      "callback_url": "/arithmetics/prod.php",
       "variables": [
         {"name": "a", "display_name": "A"},
         {"name": "b", "display_name": "B"}
